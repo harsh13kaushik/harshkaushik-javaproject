@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner nikita = new Scanner(System.in);
+        Scanner harsh = new Scanner(System.in);
         double balance = 1000.0; 
 
         while (true) {
@@ -15,7 +15,7 @@ public class Main {
 
           
             System.out.print("Enter your choice: ");
-            int choice = nikita.nextInt();
+            int choice = harsh.nextInt();
 
             
             switch (choice) {
@@ -25,14 +25,14 @@ public class Main {
 
                 case 2:
                     System.out.print("Enter deposit amount: $");
-                    double depositAmount = nikita.nextDouble();
+                    double depositAmount = harsh.nextDouble();
                     balance += depositAmount;
                     System.out.println("Deposit successful. New balance: $" + balance);
                     break;
 
                 case 3:
                     System.out.print("Enter withdrawal amount: $");
-                    double withdrawAmount = nikita.nextDouble();
+                    double withdrawAmount = harsh.nextDouble();
 
                     if (withdrawAmount <= balance) {
                         balance -= withdrawAmount;
