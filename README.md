@@ -1,2 +1,0 @@
-# harshkaushik-javaproject
-JavaTrainingProject
